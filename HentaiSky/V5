@@ -1,0 +1,31 @@
+local Lighting = game:GetService("Lighting")
+
+for _, v in pairs(Lighting:GetChildren()) do
+    if v:IsA("Sky") then v:Destroy() end
+end
+
+if not isfolder("HentaiAnime5") then makefolder("HentaiAnime5") end
+
+local faces = {
+    {prop = "SkyboxRt", url = "https://raw.githubusercontent.com/StyearX-Zens/Sky/main/cubemap_0(6).png", file = "cubemap_0(6).png"},
+    {prop = "SkyboxFt", url = "https://raw.githubusercontent.com/StyearX-Zens/Sky/main/cubemap_1(6).png", file = "cubemap_1(6).png"},
+    {prop = "SkyboxLf", url = "https://raw.githubusercontent.com/StyearX-Zens/Sky/main/cubemap_2(6).png", file = "cubemap_2(6).png"},
+    {prop = "SkyboxBk", url = "https://raw.githubusercontent.com/StyearX-Zens/Sky/main/cubemap_3(6).png", file = "cubemap_3(6).png"},
+    {prop = "SkyboxUp", url = "https://raw.githubusercontent.com/StyearX-Zens/Sky/main/cubemap_4(6).png", file = "cubemap_4(6).png"},
+    {prop = "SkyboxDn", url = "https://raw.githubusercontent.com/StyearX-Zens/Sky/main/cubemap_5(6).png", file = "cubemap_5(6).png"},
+}
+
+local Sky = Instance.new("Sky")
+Sky.Name = "Sky"
+Sky.CelestialBodiesShown = false
+Sky.StarCount = 0
+
+for _, v in ipairs(faces) do
+    local path = "HentaiAnime5/" .. v.file
+    if not isfile(path) then
+        writefile(path, game:HttpGet(v.url, true))
+    end
+    Sky[v.prop] = getcustomasset(path)
+end
+
+Sky.Parent = Lighting
