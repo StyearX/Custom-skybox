@@ -57,18 +57,6 @@ Skybox.Skyboxes = {
             { Prop = "SkyboxDn", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Rio-Tsukatsuki/Rio-Tsukatsuki-Down.png", File = "Rio TsukatsukiDown.png" },
         },
     },
-    ["[sfw] Rio Tsukatsuki Generic"] = {
-        Folder = "RioTsukatsuki",
-        ResetHaze = true,
-        Faces = {
-        { Prop = "SkyboxBk", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Rio-Tsukatsuki/Rio-Tsukatsuki-Generic-Back.png", File = "Rio-Tsukatsuki-GenericBack.png" },
-        { Prop = "SkyboxFt", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Rio-Tsukatsuki/Rio-Tsukatsuki-Generic-Front.png", File = "Rio-Tsukatsuki-GenericFront.png" },
-        { Prop = "SkyboxLf", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Rio-Tsukatsuki/Rio-Tsukatsuki-Generic-Left.png", File = "Rio-Tsukatsuki-GenericLeft.png" },
-        { Prop = "SkyboxRt", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Rio-Tsukatsuki/Rio-Tsukatsuki-Generic-Right.png", File = "Rio-Tsukatsuki-GenericRight.png" },
-        { Prop = "SkyboxUp", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Rio-Tsukatsuki/Rio-Tsukatsuki-Generic-Top.png", File = "Rio-Tsukatsuki-GenericTop.png" },
-        { Prop = "SkyboxDn", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Rio-Tsukatsuki/Rio-Tsukatsuki-Generic-Down.png", File = "Rio-Tsukatsuki-GenericDown.png" },
-        },
-    },
     ["[sfw] Yue"] = {
         Folder = "sfwYue",
         ResetHaze = true,
@@ -475,6 +463,18 @@ Skybox.Skyboxes = {
             { Prop = "SkyboxFt", Url = "https://od.lk/d/NjNfOTg0NzkzMjJf/AlyaFt.png", File = "sfwAlya2_Ft.png" },
             { Prop = "SkyboxBk", Url = "https://od.lk/d/NjNfOTg0NzkzMjBf/AlyaBk.png", File = "sfwAlya2_Bk.png" },
             { Prop = "SkyboxLf", Url = "https://od.lk/d/NjNfOTg0NzkzMjNf/AlyaLf.png", File = "sfwAlya2_Lf.png" },
+        },
+    },
+    ["[sfw] Yor Forger"] = {
+        Folder = "sfwYorForger",
+        ResetHaze = true,
+        Faces = {
+            { Prop = "SkyboxBk", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Yor-Forger/Yor-Forger-Back.png", File = "Yor-Forger-Back.png" },
+            { Prop = "SkyboxFt", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Yor-Forger/Yor-Forger-Front.png", File = "Yor-Forger-Front.png" },
+            { Prop = "SkyboxLf", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Yor-Forger/Yor-Forger-Left.png", File = "Yor-Forger-Left.png" },
+            { Prop = "SkyboxRt", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Yor-Forger/Yor-Forger-Right.png", File = "Yor-Forger-Right.png" },
+            { Prop = "SkyboxUp", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Yor-Forger/Yor-Forger-Top.png", File = "Yor-Forger-Top.png" },
+            { Prop = "SkyboxDn", Url = "https://raw.githubusercontent.com/StyearX/Custom-skybox/main/Yor-Forger/Yor-Forger-Down.png", File = "Yor-Forger-Down.png" },
         },
     },
     ["Iteration 3.2.0"] = {
